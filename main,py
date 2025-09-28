@@ -1,0 +1,11 @@
+import numpy as np
+
+
+'''
+General Skeleton
+1) Perform canny edge detection. Use paper's strategy to find the ellipse (head of the drum stick)
+2) Identify surface on which the stick are producing rhythm
+3) Follow papers algorithm to produce probability that there is a strike at every frame n.
+4) Run Kuhn-Munkres algorithm to transcribe time series
+
+'''
