@@ -11,7 +11,7 @@ def train_model():
     print(f"mAP@0.5:0.95: {metrics.box.map}")
 
 def inference():
-    model = YOLO("shared_weights/best.pt")  
+    model = YOLO("deep-learning\\shared_weights\\best.pt")  
 
     cap = cv2.VideoCapture(0)
 
